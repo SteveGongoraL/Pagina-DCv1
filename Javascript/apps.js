@@ -11,7 +11,7 @@ btnSwitch.addEventListener('click',() =>{
 
 
 /* Poner Modo Oscuro Automatico */
-if(hora<=6 || hora>=19){
+if(hora<=6 || hora>=20){
     document.body.classList.toggle('dark')
 }
 else{
@@ -24,7 +24,7 @@ let palabras=document.getElementsByClassName('saludo');
 if (hora>=6 && hora<12){
     palabras[0].textContent="BUENOS DIAS"
 }
-else if (hora<19){
+else if (hora<20){
     palabras[0].textContent="BUENAS TARDES"
 }
 else{
