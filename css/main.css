@@ -95,17 +95,19 @@ a:hover{
     }
 }
 
-
+.content{
+    /* display: flex; */
+    color: #ffffff;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* Main*/
 .formato{
     width: 70%;
-    margin: auto;
     padding: 10px;
     box-sizing: border-box;
     float: left;
-    color: #ffffff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
 }
 .formato-imagenes{
@@ -143,15 +145,12 @@ a:hover{
 /* Aside */
 .aside{
     width: 30%;
-    margin: auto;
     padding: 4px;
     box-sizing: border-box;
     float: left;
-    color: #ffffff;
     border: 3px dotted whitesmoke;
     border-radius: 80px 20px;
     background-color: rgba(51, 51, 51, 0.527);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: sticky;
     top: 5px;
 }
@@ -164,17 +163,15 @@ a:hover{
 
 
 /* footer */
-#ir-arriba{
+.ir-arriba{
     text-align: right;
     font-family: cursive;
 }
 .footer{
     width: 100%;
-    margin: auto;
     padding: 15px;
     box-sizing: border-box;
     clear: both;
-    color: #ffffff;
     background: #353434;
 }
 
